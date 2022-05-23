@@ -1,7 +1,7 @@
 
 # Secured Log in 
 
-This is a Sign in and Sign up web application built in a locall host written with PHP, HTML and CSS
+This is a Sign in and Sign up web application with access control built in a locall host written with PHP, HTML and CSS using a MySQL database
 
 To set up on a device:
 
