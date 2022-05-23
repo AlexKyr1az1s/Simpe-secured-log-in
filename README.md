@@ -40,7 +40,7 @@ To set up on a device:
  PRIMARY KEY (`id`)
 );
 
-9. On the left side of the now stop button click the admin button that opens the web aplocation
+9. On the left side of the now stop button for Apache click the admin button that opens the web aplocation
  
  
 To inspect the code use a code editor that suports PHP, HTML and CSS (Two of choices are Notepad++ and Visual Studio Code)
