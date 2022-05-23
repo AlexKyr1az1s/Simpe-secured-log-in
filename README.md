@@ -1,3 +1,4 @@
+
 # Secured Log in 
 
 This is a Sign in and Sign up web application built in a locall host written with PHP, HTML and CSS
@@ -19,6 +20,7 @@ To set up on a device:
 7. go to http://localhost/phpmyadmin/index.php?route=
 
 8. select SQL on the top left and run the following queries to create the local database
+
 8.1. CREATE DATABASE LoginSystem;
 
 8.2. CREATE TABLE IF NOT EXISTS `users` (
