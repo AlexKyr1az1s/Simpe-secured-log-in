@@ -25,8 +25,8 @@
         $result   = mysqli_query($con, $query);
         if ($result) {
             echo "<div class='form'>
-                  <h3>You are registered successfully.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a></p>
+                  <h3>Sign up successful.</h3><br/>
+                  <p class='link'>Click here to <a href='signin.php'>Sign in</a></p>
                   </div>";
         } else {
             echo "<div class='form'>

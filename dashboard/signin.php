@@ -24,16 +24,12 @@
 		$row = mysqli_fetch_assoc($result);
 		$adauth = $row['adminauth'];
 		 // Redirect to user dashboard pages
-        if ($rows == 1 && $adauth == 1) {
+        if ($rows == 1) {
 			$_SESSION['username'] = $username;
-			
-			header("Location: admindashboard.php");	
-		}
-			elseif($rows == 1 && $adauth == 1){			
-			
-            header("Location: dashboard.php");
-			
-            
+			if($adauth == 0){
+				header("Location: user.php");	
+			}else{ header("Location: administrator.php");}
+						
         } else {
             echo "<div class='form'>
                   <h3>Incorrect Username/password.</h3><br/>
